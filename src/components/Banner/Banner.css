@@ -1,0 +1,22 @@
+.custom-slider img {
+  height: 80vh;
+  width: 100vw;
+  object-fit: cover;
+}
+.car-item {
+  position: relative;
+}
+.car-item span::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.795);
+}
+
+.slider-caption {
+  /* background-color: #0d6dfda6;
+  border-radius: 0px;
+  padding: 50px 0px; */
+  bottom: 20%;
+}

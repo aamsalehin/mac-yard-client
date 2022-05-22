@@ -1,0 +1,7 @@
+.trainers img {
+  border-radius: 50%;
+  height: 200px !important;
+  width: 200px !important;
+  overflow: hidden;
+  object-fit: cover;
+}
